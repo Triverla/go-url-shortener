@@ -9,7 +9,7 @@ Accepts long url and user id to distinguish urls
 
 ```json
 {
-    "long_url:"https://www.google.com",
+    "long_url":https://www.google.com",
     "user_id":"abx-qwe-345-ddd"
 }
 ```
