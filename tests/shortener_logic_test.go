@@ -12,13 +12,13 @@ func TestShortLinkGenerator(t *testing.T) {
 	initialLink1 := "https://www.guru3d.com/news-story/spotted-ryzen-threadripper-pro-3995wx-processor-with-8-channel-ddr4,2.html"
 	shortLink1 := logic.GenerateShortLink(initialLink1, UserId)
 
-	initialLink2 := "https://www.eddywm.com/lets-build-a-url-shortener-in-go-with-redis-part-2-storage-layer/"
+	initialLink2 := "https://github.com/Triverla"
 	shortLink2 := logic.GenerateShortLink(initialLink2, UserId)
 
-	initialLink3 := "https://spectrum.ieee.org/automaton/robotics/home-robots/hello-robots-stretch-mobile-manipulator"
+	initialLink3 := "https://github.com/Triverla/url-shortener"
 	shortLink3 := logic.GenerateShortLink(initialLink3, UserId)
 
 	assert.Equal(t, shortLink1, "jTa4L57P")
-	assert.Equal(t, shortLink2, "d66yfx7N")
-	assert.Equal(t, shortLink3, "dhZTayYQ")
+	assert.Equal(t, shortLink2, "QwJwA2pU")
+	assert.Equal(t, shortLink3, "UDDPGqni")
 }
